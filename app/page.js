@@ -65,7 +65,7 @@ export default function Home() {
         </div>
       </div>
       {/* Main content */}
-      <div className="flex flex-col w-full h-full ">
+      <div className="flex flex-col w-full ">
         <div className="flex-col justify-center items-center bg-white pt-10">
           <div className="flex mb-8 relative right-[110px] mr-0">
             <div className="flex w-full p-2 border border-gray-300 bg-[#E2E2E2] rounded-full shadow-2xl">
@@ -135,11 +135,11 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white w-full">
-          <div className="flex justify-between items-center mb-8">
+          <div className="flex justify-between items-center mb-8 ">
             <div className="text-3xl font-bold">Track candidate status</div>
           </div>
-          <div className="flex items-center mb-8">
-            <div className="flex items-center p-2 border border-gray-300 rounded-full">
+          <div className="flex items-center justify-center mb-8 w-[90%]">
+            <div className="flex items-center pl-10 p-2 border border-gray-300 rounded-full w-[66%]">
               <svg
                 width="25"
                 height="25"
@@ -157,12 +157,12 @@ export default function Home() {
                 Enter your Email or Mobile Number
               </h1>
             </div>
-            <button className="bg-purple-600 text-white ml-3 p-2 rounded-full text-sm">
+            <button className="bg-purple-600 text-white ml-3 p-2 rounded-full text-sm shadow-2xl">
               Check status
             </button>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 bg-[#ECECEC] rounded-[22px] p-3 w-[90%] h-full">
+          <div className="grid grid-cols-2 gap-4 bg-[#ECECEC] rounded-[22px] p-3 w-[80%] flex-grow">
             <div className="p-4 border border-black rounded-[16px] bg-white flex justify-center items-center flex-col">
               <h2 className="text-lg font-bold">INFOSYS</h2>
               <p className="text-green-500">● Final Round</p>
