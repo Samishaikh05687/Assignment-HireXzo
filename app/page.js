@@ -68,35 +68,32 @@ export default function Home() {
       <div className="flex flex-col w-full ">
         <div className="flex-col justify-center items-center bg-white pt-10">
           <div className="flex mb-8 relative right-[110px] mr-0">
-            <div className="flex w-full p-2 border border-gray-300 bg-[#E2E2E2] rounded-full shadow-2xl">
-              <div className="flex items-center text-[#170039] font-bold font-europa text-[40px] z-0">
-                <svg
-                  className="mr-[2px]"
-                  width="40"
-                  height="35"
-                  viewBox="0 0 40 35"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.06283 19.5595L8.65073 32.7682L12.1528 25.4947L8.3218 18.8274C8.11293 18.4751 8.00272 18.0729 8.00272 17.6633C8.00272 17.2537 8.11293 16.8516 8.3218 16.4992L13.1025 8.17923C13.5298 7.43753 14.2602 7.01347 15.11 7.01347H17.6817L12.7059 18.2244H18.8523L10.4937 34.4402L27.2819 14.3031H22.1206L25.6421 7.01508H35.4003L39.241 0.333344H12.1125C10.7259 0.333344 9.53593 1.02345 8.8426 2.22629L1.06283 15.7704C0.723161 16.3439 0.543945 16.9983 0.543945 17.6649C0.543945 18.3315 0.723161 18.9859 1.06283 19.5595ZM12.693 34.9997H27.6721C28.3379 35.0082 28.9937 34.8364 29.5699 34.5026C30.1461 34.1688 30.6213 33.6854 30.9452 33.1035L38.725 19.5595C39.0629 18.9853 39.241 18.3311 39.241 17.6649C39.241 16.9987 39.0629 16.3446 38.725 15.7704L35.6131 10.3527H27.9333L31.4644 16.5008C31.8869 17.2425 31.8869 18.0922 31.4644 18.8291L26.6853 27.1522C26.4859 27.5097 26.1937 27.8067 25.8395 28.0119C25.4853 28.217 25.0823 28.3228 24.673 28.318H21.2L18.7862 28.2906L12.693 34.9997Z"
-                    fill="#170039"
-                  />
-                </svg>
-                Employia
-              </div>
-              <div className="relative">
-                <div className="absolute left-[650px]">
-                  <div className="w-14 h-14  rounded-full flex justify-center items-center border-2 border-purple-600">
-                    <img
-                      src="https://s3-alpha-sig.figma.com/img/99f0/2011/f6f78ff4ecf8c1a8d1d27687cac77dee?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jzugBHS7JO00VmT6oQ5g6Mb1bEZd28bHrTDQemfI-vs~CpYuhADpEk0GReOxG71jrgai2Zp1x2Rx6yQBzmElhdNTPkPcd5ejHdcyUW8QMWVCht-hBUcZO6wzy-PfX-qphxPVJFcI4cY~mNizltSpBAqGBYI8tcF~XUkU4b5XwgTijsI~7KxqBFkfCpjvlqDLGsLBO9mV813v26WhtbA8QPeIS7hY7miqkQNQsYmrbM9TZpT15zY-VsPFDzztfEJsVHs8r3z~LaUt6xcaLuXNehaXNT5RRFpta1syynbjTw3uHsAuyeLFp3cCoBWpUz3KK6uZS9JUWiMm53Uq-okCdw__"
-                      alt="Dummy Image"
-                      className="w-12 h-12 rounded-full"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="flex justify-between w-full p-2 border border-gray-300 bg-[#E2E2E2] rounded-full shadow-2xl">
+  <div className="flex items-center text-[#170039] font-bold font-europa text-[40px] z-0">
+    <svg
+      className="mr-[2px]"
+      width="40"
+      height="35"
+      viewBox="0 0 40 35"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.06283 19.5595L8.65073 32.7682L12.1528 25.4947L8.3218 18.8274C8.11293 18.4751 8.00272 18.0729 8.00272 17.6633C8.00272 17.2537 8.11293 16.8516 8.3218 16.4992L13.1025 8.17923C13.5298 7.43753 14.2602 7.01347 15.11 7.01347H17.6817L12.7059 18.2244H18.8523L10.4937 34.4402L27.2819 14.3031H22.1206L25.6421 7.01508H35.4003L39.241 0.333344H12.1125C10.7259 0.333344 9.53593 1.02345 8.8426 2.22629L1.06283 15.7704C0.723161 16.3439 0.543945 16.9983 0.543945 17.6649C0.543945 18.3315 0.723161 18.9859 1.06283 19.5595ZM12.693 34.9997H27.6721C28.3379 35.0082 28.9937 34.8364 29.5699 34.5026C30.1461 34.1688 30.6213 33.6854 30.9452 33.1035L38.725 19.5595C39.0629 18.9853 39.241 18.3311 39.241 17.6649C39.241 16.9987 39.0629 16.3446 38.725 15.7704L35.6131 10.3527H27.9333L31.4644 16.5008C31.8869 17.2425 31.8869 18.0922 31.4644 18.8291L26.6853 27.1522C26.4859 27.5097 26.1937 27.8067 25.8395 28.0119C25.4853 28.217 25.0823 28.3228 24.673 28.318H21.2L18.7862 28.2906L12.693 34.9997Z"
+        fill="#170039"
+      />
+    </svg>
+    Employia
+  </div>
+  <div className="w-14 h-14 rounded-full flex justify-center items-center border-2 border-purple-600">
+    <img
+      src="https://s3-alpha-sig.figma.com/img/99f0/2011/f6f78ff4ecf8c1a8d1d27687cac77dee?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jzugBHS7JO00VmT6oQ5g6Mb1bEZd28bHrTDQemfI-vs~CpYuhADpEk0GReOxG71jrgai2Zp1x2Rx6yQBzmElhdNTPkPcd5ejHdcyUW8QMWVCht-hBUcZO6wzy-PfX-qphxPVJFcI4cY~mNizltSpBAqGBYI8tcF~XUkU4b5XwgTijsI~7KxqBFkfCpjvlqDLGsLBO9mV813v26WhtbA8QPeIS7hY7miqkQNQsYmrbM9TZpT15zY-VsPFDzztfEJsVHs8r3z~LaUt6xcaLuXNehaXNT5RRFpta1syynbjTw3uHsAuyeLFp3cCoBWpUz3KK6uZS9JUWiMm53Uq-okCdw__"
+      alt="Dummy Image"
+      className="w-12 h-12 rounded-full"
+    />
+  </div>
+</div>
+
             <div className="bg-purple-600 font-bold text-white ml-3 p-2 rounded-[10px] text-sm flex justify-center items-center">
               <div className="pr-2">
                 Credits <br /> 100
@@ -134,7 +131,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center bg-white w-full">
+        <div className="flex flex-col justify-center items-center bg-white w-full h-[70%]">
           <div className="flex justify-between items-center mb-8 ">
             <div className="text-3xl font-bold">Track candidate status</div>
           </div>
@@ -162,7 +159,7 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 bg-[#ECECEC] rounded-[22px] p-3 w-[80%] flex-grow">
+          <div className="grid grid-cols-2 gap-4 bg-[#ECECEC] rounded-[22px] p-3 w-[80%] h-[90%]">
             <div className="p-4 border border-black rounded-[16px] bg-white flex justify-center items-center flex-col">
               <h2 className="text-lg font-bold">INFOSYS</h2>
               <p className="text-green-500">● Final Round</p>
